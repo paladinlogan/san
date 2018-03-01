@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>确认提交订单 - Vancl凡客诚品</title>
+  <link rel="shortcut icon" href="https://ssl.vanclimg.com/common/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+  <header>
+      <a href="index.html"><img src="img/logo18546.png" alt="logo"></a>      
+  </header>
+  <main>
+      <h2>收货地址</h2>
+      
+      <div class="address">
+        <ul class="addess-ul">
+          <!--<li class="address-item" data-id="1">收货人：小王 北京 石景山 136911212123 实兴大街朗诚大厦2楼优才</li>-->
+        </ul>
+        <span class="newAddress">新增地址<b>+</b></span>
+      </div>
+      
+      <div class="add" id="add">
+        <span class="close">X</span>
+        <form action="">
+          <p>
+            <span>收货人姓名：</span>
+            <input type="text" name="address_name" placeholder="请输入收货人姓名"/>
+          </p>
+          <p>
+            <span>手机号码：</span>
+            <input type="text" name="mobile" placeholder="请输入收货人手机号码"/>
+          </p>
+          <p>
+            <span>所在省份：</span>
+            <input type="text" name="province" placeholder="请输入收货人所在省份"/>
+          </p>
+          <p>
+            <span>所在县市：</span>
+            <input type="text" name="city" placeholder="请输入收货人所在县市"/>
+          </p>
+          <p>
+            <span>所在地区：</span>
+            <input type="text" name="district" placeholder="请输入收货人所在地区"/>
+          </p>
+          <p>
+            <span>详细地址：</span>
+            <input type="text" name="address" placeholder="请输入收货人详细地址"/>
+          </p>
+          <input type="button" value="新建收货信息" id="btn"/>
+        </form>
+      </div>
+      
+      
+      <div id="sum">
+        
+      </div>
+      
+      <input type="button" value="确认订单" id="order"/>
+      
+  </main>
+  <footer>
+      <p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+      <div>
+        <a href="#"></a>
+        <span></span>
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+  </footer>
+</body>
+</html>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/checkout.js"></script>

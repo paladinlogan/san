@@ -1,0 +1,36 @@
+*{margin: 0;padding: 0;font-family: "Microsoft Yahei"}
+a{text-decoration: none;}
+li{list-style: none;}
+img{width: 100px;}
+
+/* 顶部 */
+  header{width: 1200px;height: 55px;border-bottom:1px solid #7a7f89;margin: 15px auto 0;}
+  header>a{float: left;width: 187px;height: 50px;}
+  header img{width: 187px;height: 50px;}
+/* 主体 */
+  main{width: 1200px;margin: 0 auto;padding: 20px 0 70px;border-bottom: 1px solid #7a7f89;}
+  main>h2{font-weight: normal;}
+  .order-item{margin: 10px 0;border: 1px solid gray;background-color: #ffe;}
+  .order-item-header{border-bottom: 1px solid gray;text-indent: 10px;}
+  .order-item>div:not(:first-child){height: 100px;line-height: 100px;
+          display: flex;align-items: center;}
+  .order-item>div:not(:first-child) img{margin-right: 30px;}
+  /* main #pay{width: 180px;height: 40px;cursor: pointer;
+          text-align: center;line-height: 40px;
+          float: right;margin-right: 40px;margin-top: 10px;
+          color: #fff;font-size: 20px;
+          background-color: #a10000;} */
+/* 底部 */
+  footer{width: 980px;height: 104px;
+    padding-top: 15px;margin: 0 auto;
+    font:100 12px "宋体";color: #999;}
+  footer>p{margin-bottom: 20px;width: 980px;text-align: center;}
+  footer>div{margin-bottom: 25px;text-align: center;}
+  footer>div>a:first-child{height:42px;width: 113px;display: inline-block;
+    background: url(../img/login_spritesbg.png) no-repeat scroll 0 -400px transparent}
+  footer>div>a:nth-child(3){height:42px;width: 96px;display: inline-block;
+    background: url(../img/login_spritesbg.png) no-repeat scroll 0 -494px transparent}
+  footer>div>a:last-child{height:42px;width: 101px;display: inline-block;
+    background: url(../img/login_spritesbg.png) no-repeat scroll -97px -494px transparent}
+  footer>div>span{height: 45px;width: 156px;display: inline-block;
+    background: url(../img/login_spritesbg.png) no-repeat scroll 0 -448px transparent}

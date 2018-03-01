@@ -1,0 +1,136 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+
+header{width: 1090px;height: 55px;border-bottom:1px solid #7a7f89;margin: 15px auto 0;}
+header>a{float: left;width: 187px;height: 50px;}
+
+main .location{width: 540px;height: 28px;
+          margin-top: 10px;
+          background: url(../img/newProm.png) 0 0 no-repeat;}
+main .location b{color: #666;display: inline-block;text-align: center;line-height: 28px;width: 175px;}
+main .location b:first-child{color: #fff;}
+.operate {width: 30px;
+          line-height: 30px;text-align: center;
+          background: #ccc;cursor: pointer;
+          padding: 5px 10px;
+        }
+.shop{width: 1090px;margin: 0 auto;font-size: 15px;}
+.shop-list{width: 100%;height: 36px;
+          border: 1px solid #ddd;margin-top: 10px;
+        }
+.shop-list-check{width: 134px;height: 100%;
+          display: inline-block;float: left;color: #ddd;
+          /*text-indent: 20px;*/
+        }
+.shop-list-check input{width: 17px;height: 18px;
+          float:left;margin: 10px 7px 0 15px;   
+        }
+.shop-list-check i{width: 30px;height: 18px;
+          float: left;margin-top: 10px;font-style: normal;   
+        }
+.shop-list-mas{width: 422px;height: 100%;
+          display: inline-block;float: left;
+          line-height: 36px;color: #ddd;
+        }
+.shop-list-one{width: 150px;height: 100%;
+          display: inline-block;float: left;
+          line-height: 36px;color: #ddd;  
+        }
+.shop-list-s{width: 147px;height: 100%;
+          float: left;display: inline-block;
+          line-height: 36px;color: #ddd; 
+        }
+.shop-list em{width: 128px;height: 100%;
+          float: left;line-height: 36px;color: #ddd;}
+.shop-list span{width: 107px;height: 100%;
+          float: left;line-height: 36px;color: #ddd;    }
+.goods{width: 1088px;height: 121px;border: 1px solid #ddd;
+          background-color: #fffbf0;margin-top: 50px;
+        }
+.goods-box{width: 525px;height: 100%;float: left;}
+.goods-box img{width: 80px;height: 80px;
+          margin-top: 20px;float: left;
+        }
+.goods-box input{width: 17px;height: 18px;  
+          margin: 50px 7px 0 15px;float:left;
+        }
+.goods-box p {float: left;color: #333;
+          width: 380px;height: 40px;overflow: hidden;
+          margin-top: 25px;margin-left: 17px;}
+.goods-one{width: 108px;height: 80px;
+          float: left;padding-top: 25px;padding-right: 20px;
+          font-weight: bold;text-align: center;
+          /*margin-left: 300px;*/
+        }
+.goods-lists{width: 120px;height: 80px;
+          float: left;padding: 25px 20px 0;}
+.left-button{width: 22px;height: 22px;
+          font-size: 20px;float: left;
+          text-align: center;line-height: 22px;
+          border: 1px solid #ddd;
+          cursor:pointer;
+        }
+.right-button{width: 22px;height: 22px;
+          float: left;font-size: 20px;cursor:pointer;
+          text-align: center;line-height: 22px;
+          border: 1px solid #ddd;
+        }
+.center-text{width: 43px;height: 22px;
+          float: left;text-align: center;
+          border-top: 1px solid #ddd;
+          border-bottom: 1px solid #ddd;
+        }
+.goods-sum{width: 108px;height: 80px;
+          float: left;font-weight: bold;
+          text-align: center;
+          padding:25px 20px 0 10px;
+          /*margin-left: 300px;*/
+        }
+.goods-op{ width: 85px;height: 80px;
+          float: left;
+          padding: 25px 20px 0 31px;
+          cursor:pointer;
+        }
+.goods-op:hover{text-decoration:underline;}
+.shop-set{width:1088px;/*height: 60px;*/
+          border:1px solid #ddd;
+          background-color: #f8f8f8;
+          margin: 50px auto 0;
+        }
+.shop-set span{cursor:pointer;}
+.shop-set-box{width: 100%;height: 40px;
+          padding: 10px 0;}
+.shop-set-box input{width: 17px;height: 18px;
+          float:left;margin: 12px 7px 0 15px;}
+.shop-set-box span{line-height: 40px;margin-left: 5px;}
+    
+.shop-set-box-ri{width: 585px;height: 100%;
+          float: right;position: relative;}
+    
+.shop-set-box-ri a{width: 120px;height: 61px;
+          text-align: center;line-height: 60px;
+          position: absolute;right: 0;top:-10px;
+          font-size: 20px;color: white;
+          background-color: #e31436;
+          cursor: pointer;
+        }
+.shop-set-box-ri a:hover{opacity:0.8;}
+.shop-set-box-ri-1{width: 445px;height: 100%;
+          text-align: right;line-height:30px;
+          font-size: 22px;
+        }
+.shop-set-box-ri-1 em{font-size: 18px;margin: 0 5px;color: #e31436;}
+/* 底部 */
+  footer{width: 980px;height: 104px;
+    padding-top: 15px;margin: 50px auto 0;
+    font:100 12px "宋体";color: #999;}
+  footer>p{margin-bottom: 20px;width: 980px;text-align: center;}
+  footer>div{margin-bottom: 25px;text-align: center;}
+  footer>div>a:first-child{height:42px;width: 113px;display: inline-block;
+    background: url(../img/login_spritesbg.png) no-repeat scroll 0 -400px transparent}
+  footer>div>a:nth-child(3){height:42px;width: 96px;display: inline-block;
+    background: url(../img/login_spritesbg.png) no-repeat scroll 0 -494px transparent}
+  footer>div>a:last-child{height:42px;width: 101px;display: inline-block;
+    background: url(../img/login_spritesbg.png) no-repeat scroll -97px -494px transparent}
+  footer>div>span{height: 45px;width: 156px;display: inline-block;
+    background: url(../img/login_spritesbg.png) no-repeat scroll 0 -448px transparent}
